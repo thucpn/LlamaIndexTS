@@ -21,7 +21,7 @@ describe("Image Generator Tool", () => {
     });
 
     const result = (await imgTool.call({
-      prompt: "a cute cat playing with yarn",
+      prompt: "a cute cat playing with basketball",
     })) as ImgGeneratorToolOutput;
 
     expect(result.isSuccess).toBe(true);
